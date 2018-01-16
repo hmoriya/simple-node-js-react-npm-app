@@ -10,6 +10,7 @@ pipeline {
     stage('Buld') {
       steps {
         echo 'Hello'
+        sh 'npm init'
       }
     }
   }
